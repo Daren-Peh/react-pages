@@ -1,0 +1,27 @@
+.SearchResults {
+    width: 50%;
+    height: 950px;
+    overflow-y: scroll;
+    padding: .88rem;
+    background-color: rgba(12,35,64,0.8);
+    box-shadow: 0 0 1px 0px azure;
+  }
+  
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+  }
+  
+  @media only screen and (max-width: 1020px) {
+    .SearchResults {
+      width: 90%;
+      margin-bottom: 2rem;
+    }
+  }
+
+  h2{
+    text-transform: uppercase;
+    color: #78be20;
+    padding: 20px 10px;
+    text-align: center;
+  }
